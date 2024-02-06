@@ -1,0 +1,14 @@
+#root {
+  background-image: url("resources/bg.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+header {
+  background-color: #282c34;
+}
+
+.cm-font {
+  font-family: "Protest Revolution", sans-serif !important;
+  font-size: 2em !important;
+}
