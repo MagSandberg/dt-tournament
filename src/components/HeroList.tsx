@@ -28,6 +28,7 @@ const heroList = {
     "Loki",
     "Doctor Strange",
     "Black Panther",
+    "Deadpool"
   ],
   svsk: ["Santa", "Krampus"],
 };
