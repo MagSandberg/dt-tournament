@@ -1,7 +1,6 @@
 import { useState } from "react";
 import heroList from "./HeroList";
-import heroUrl from "./HeroUrl"; // Import the heroUrl list using default import
-import dtLogo from "../resources/dt_logo_animated.gif";
+import heroUrl from "./HeroUrl";
 import "../App.css";
 
 function RandomizeHero() {
@@ -11,20 +10,20 @@ function RandomizeHero() {
     heroList.svsk
   );
   const [randomHero, setRandomHero] = useState<string | null>(null);
-  let [selectedHeroUrl, setSelectedHeroUrl] = useState<string>(dtLogo);
+  const [selectedHeroUrl, setSelectedHeroUrl] = useState<string>(heroUrl.default);
   console.log(selectedHeroUrl);
 
   const handleButtonClick = () => {
     const selectedHero = heroes[Math.floor(Math.random() * heroes.length)];
     setRandomHero(selectedHero);
     const randomHeroUrl = heroUrl[selectedHero as keyof typeof heroUrl];
-    setSelectedHeroUrl(randomHeroUrl || dtLogo);
+    setSelectedHeroUrl(randomHeroUrl || heroUrl.default);
     console.log(randomHeroUrl);
   };
 
   return (
     <>
-      <div className="card w-50 m-auto" style={{ maxWidth: 400 }}>
+      <div className="card w-50 m-auto">
         <img src={selectedHeroUrl} className="card-img-top" alt="..." />
         <div className="card-body">
           <button

@@ -1,7 +1,5 @@
-import dtLogo from "../resources/dt_logo_animated.gif";
-
 const heroUrl = {
-  default: dtLogo,
+  default: "https://shop.dicethrone.com/cdn/shop/t/19/assets/Dice-Throne---Animated-Logo---205-px-Wide.gif?v=178658123101774458421701954523dtLogo",
   Barbarian:
     "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/539cc0778967--barb-3e74f2_700x.jpg?v=1605042330",
   "Moon Elf":
@@ -12,11 +10,13 @@ const heroUrl = {
     "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-1-23076e.png?v=1602774898",
   Monk: "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-2-e67578.png?v=1602769708",
   Paladin:
-    "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-5-34bc71.png?v=1602728684",
+    "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-3-b9eea3.png?v=1602774816",
   Ninja:
-    "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-6-34bc71.png?v=1602728684",
+    "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-4-be1d41.png?v=1602779923",
   Treant:
-    "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-7-34bc71.png?v=1602728684",
+    "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-5-b1a3ff.png?v=1602781671",
+  Gunslinger:
+    "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-8-8cad29.png?v=1602787948",
   "Cursed Pirate":
     "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/539cc0778967--pirate-3e74f2_700x.jpg?v=1605042330",
   Artificer:
@@ -25,8 +25,6 @@ const heroUrl = {
     "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/539cc0778967--seraph-3e74f2_700x.jpg?v=1605042330",
   "Vampire Lord":
     "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/539cc0778967--vampire-3e74f2_700x.jpg?v=1605042330",
-  Gunslinger:
-    "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/539cc0778967--gunslinger-3e74f2_700x.jpg?v=1605042330",
   Samurai:
     "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/539cc0778967--samurai-3e74f2_700x.jpg?v=1605042330",
   Tactician:
