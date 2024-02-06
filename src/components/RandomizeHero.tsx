@@ -23,17 +23,16 @@ function RandomizeHero() {
 
   return (
     <>
-      <div className="card w-50 m-auto">
-        <img src={selectedHeroUrl} className="card-img-top" alt="..." />
+      <div className="card w-75 m-auto mt-5 align-items-center p-3">
+        <img src={selectedHeroUrl} className="card-img-top w-100" alt="..." />
         <div className="card-body">
           <button
             onClick={handleButtonClick}
-            className="btn btn-lg btn-warning cm-font"
+            className="btn btn-warning cf"
           >
             Get your fighter!
           </button>
         </div>
-        {randomHero && <p>{randomHero}</p>}
       </div>
     </>
   );
