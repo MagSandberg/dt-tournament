@@ -9,8 +9,8 @@ const heroUrl = {
   Pyromancer:
     "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-1-34bc71.png?v=1602728684",
   "Shadow Thief":
-    "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-2-34bc71.png?v=1602728684",
-  Monk: "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-3-34bc71.png?v=1602728684",
+    "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-1-23076e.png?v=1602774898",
+  Monk: "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-2-e67578.png?v=1602769708",
   Paladin:
     "https://cdn.shopify.com/s/files/1/0045/4013/7562/t/9/assets/a716b64ef4a9--5.component-spread-5-34bc71.png?v=1602728684",
   Ninja:
